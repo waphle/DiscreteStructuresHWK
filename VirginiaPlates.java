@@ -16,8 +16,8 @@ public class VirginiaPlates {
         + createDigit() + createDigit() + createDigit() + createDigit();
     }
 
-    public static void main(String[] args) { // Print out examples, i < 20 means 20 examples
-        for (int i = 0; i < 20; i++) { 
+    public static void main(String[] args) { // Print out examples, i < 30 will create 30 possible license plates
+        for (int i = 0; i < 30; i++) { 
             System.out.println(createPlate());
         }
     }
