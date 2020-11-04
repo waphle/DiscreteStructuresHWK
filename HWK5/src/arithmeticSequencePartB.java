@@ -1,11 +1,10 @@
-import java.io.*; 
-import java.lang.*; 
-  
 class partB_Ari { 
+	
+	// Find the Nth term:
 	
 	// Derived from the arithmetic formula, we can 
 	// find how many terms are in the sequence.
-	// The new formula is N = (T/d) - (a/d) + 1
+	// The new formula is N = (l/d) - (a/d) + 1
     public static int Nth_of_AP(int a, int d, int l) {  
         return ((l/d) - (a/d) + 1); 
     } 

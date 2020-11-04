@@ -3,12 +3,12 @@ class partA_Ari {
 	// Arithmetic formula: T = a + (N-1)*d where:
 	// a = the First number
 	// d = the Common difference
-	// n = the Nth term
-	static void printSeries(int a, int d, int n) { 
+	// N = the Nth term
+	static void printSeries(int a, int d, int N) { 
 		int first_term; 
 		first_term = a; 
 		
-		for (int i = 1; i <= n; i++) {
+		for (int i = 1; i <= N; i++) {
 			System.out.print(first_term + " + "); 
 			first_term = first_term + d; 
 		} 
@@ -23,9 +23,9 @@ class partA_Ari {
 		int d = 18;  
   
 		// Nth term 
-		int n = 12;  
+		int N = 12;  
 		
 		System.out.print("Your series is: ");
-		printSeries(a, d, n); 
+		printSeries(a, d, N); 
 	} 
 } 
