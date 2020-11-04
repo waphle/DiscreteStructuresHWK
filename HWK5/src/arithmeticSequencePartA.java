@@ -1,4 +1,4 @@
-class partA { 
+class partA_Ari { 
 	static void printSeries(int a, int d, int n) { 
 		// Printing AP by simply adding d to previous term. 
 		int first_term; 

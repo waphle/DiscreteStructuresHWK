@@ -1,8 +1,7 @@
 import java.io.*; 
 import java.lang.*; 
   
-class partB  
-{ 
+class partB_Ari { 
     public static int Nth_of_AP(int a, int d, int l) 
     {  
         // Formula to find how many terms are in the sequence
@@ -10,7 +9,7 @@ class partB
     } 
     
     static void printSeries(int a, int d, int N) { 
-		// Printing AP by simply adding d to previous term. 
+		// Print out all series. 
 		int first_term; 
 		first_term = a; 
 		
@@ -24,14 +23,14 @@ class partB
     // Driver code 
     public static void main(String[] args)  
     {  
-        // starting number 
-        int a = 2;  
+        // Set the first number 
+        int a = 76;  
           
-        // Common difference 
-        int d = 2;  
+        // Set the common difference 
+        int d = 7;  
           
-        // The last number 
-        int l = 10;
+        // Set the last number 
+        int l = 160;
         
         // The Nth term of the sequence
         int N = Nth_of_AP(a, d, l);
